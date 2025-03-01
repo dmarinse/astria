@@ -514,3 +514,7 @@ hex-to-dec hex:
   HEX_NUM={{hex}}
   CLEAN_HEX=$(echo "${HEX_NUM#0x}" | tr 'a-z' 'A-Z')
   echo $(echo "ibase=16; $CLEAN_HEX" | bc)
+
+
+
+
